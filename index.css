@@ -1,0 +1,112 @@
+
+
+body{
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+  
+}
+   
+a{
+    text-decoration: none;
+}
+.logo img{
+    width: 100%;
+    height: 250px;
+}
+   
+main .contenido{
+    height: 100vh;
+    background-color: rgb(49, 49, 171);
+    color: white;
+    position: relative;
+    text-align: center;
+    background: url("../assets/fondoprincipal.jpeg");
+   
+    background-size: cover;
+    box-shadow: 0.5rem 0.5rem .1rem black;
+}
+
+
+
+.img-logo{
+    margin: 3em 0 auto;
+ 
+   
+}
+
+  
+h1{
+    margin: 0 auto;
+    font-size: 3.0rem;
+    font-weight: 900;
+    line-height: 90%;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 0.4rem 0.1rem .8rem black;
+    font-weight: bold;
+    padding: 0;
+
+}
+ .subtitle{
+  font-size: 1.2rem;
+  font-weight: normal;
+    margin: 0 0 .5em;
+    padding: 0;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 0.1rem 0.1rem  black;
+
+
+}
+#btn-menu{
+    color: white;
+    background: #FF5C00;
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    font-weight: bold;
+    border: none;
+    padding: .85em 1em;
+    font-family: 'Orbitron', sans-serif;
+}
+#btn-menu:focus{
+    outline: none;
+}
+#btn-menu:hover{
+    background: #BF6A3A;
+    border: 1px solid black
+}
+.logo{
+  display: block;
+}
+.img-logo{
+    width: 100%;
+    height: 300px;
+}
+.menu-opciones{  
+   background: #FF5C00;
+   display: none;
+   flex-direction: column;
+   margin: auto;
+   width: 40%;
+ 
+}
+.menu-opciones .enlace{
+   font-size: 1.2rem;
+    color: white;
+    padding: 1em;
+    margin: auto;
+    border-bottom: 1px solid lightgray;
+   
+}
+
+
+
+@media only screen and (min-width:900px) {
+    h1{
+        font-size: 6rem;
+    }
+    .subtitle{
+        font-size: 2rem;
+        margin: 0 0 1em;
+    }
+}
