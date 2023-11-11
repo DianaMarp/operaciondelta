@@ -29,9 +29,8 @@ main .contenido{
 
 
 .img-logo{
-    margin: 3em 0 auto;
- 
-   
+    margin: 4.2em 0 auto;
+  
 }
 
   
@@ -102,6 +101,10 @@ h1{
 
 
 @media only screen and (min-width:900px) {
+    .img-logo{
+    margin: 3em 0 auto;   
+}
+
     h1{
         font-size: 6rem;
     }
